@@ -71,7 +71,7 @@
 /*Back to the article yazili button*/
 .content-wrapper button {
     position: absolute;
-    margin-right: 12px;
+    margin-right: -52px;
     margin-left: 12px;
     padding: 16px;
     border-radius: 5px;
@@ -121,7 +121,7 @@
     font-weight: bold;
     text-align: center;
     font-family: 'Varela Round', sans-serif;
-    margin-left: -81px;
+    margin-left: 11px;
     text-decoration-style: none;
 }
 
@@ -441,8 +441,8 @@
 
 /*Iphondan sonraki background sehfesi*/
 .swag {
-    width: 115.3%;
-    margin-left: -90px;
+    width: 135.3%;
+    margin-left: -207px;
     margin-top: 10%;
     background: url(../images/plants-bg.jpg);
     height: 300px;
@@ -653,4 +653,222 @@
     margin: 3%;
 }
 
+.ignite {
+    margin-top: 100%;
+    width: 100%;
+    height:210px;
+    background-color: #242830;
+
+}
+
+.ignite-container {
+    width: 1170px;
+    
+}
+
+.ignite-btn {
+    display: inline-block;
+    padding: 25px 40px;
+    color: #fff;
+    border: solid 1px #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 57%; 
+    margin-top: 70px;   
+}
+
+.ignite-btn a {
+    
+    /*color: white;*/
+    
+    border: solid 1px #fff;
+    font-weight: bold;
+    padding: 25px 40px;
+    transition: color 0.4s, border 0.4s;
+}
+
+.ignite-btn a:hover{
+    background: #3DC9B3;
+    border: 1px solid #3DC9B3;
+    
+
+}
+
+.team {
+    width: 100%;
+    height: 670px;
+}
+
+.team-container {
+    width: 1469px
+    margin-left: 534px;
+}
+
+.team-container h1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #353535;
+    letter-spacing: 1px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    padding-left: 30%;
+    margin-top: 76px;
+    margin-left: 208px;
+}
+
+
+
+.team-images1 {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 19%;
+        
+}
+
+.team-images2 {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 45%;
+        
+}
+
+.team-images3 {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 72%;
+        
+}
+
+.team-text {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+}
+
+.team-text1 {
+    width: 32%;
+    height: 47px;
+    margin-left: 9%;
+    margin-top: 21%;
+}
+
+.team-text1 h2{
+    font-size: 15px;
+    text-align: center;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 12%;
+
+}
+
+.team-text1 h2::after {
+    content: " ";
+    border: solid 2px #3dc9b3;
+    display: block;
+    width: 35px;
+    margin: 22px;
+    margin-left: 46%;
+    
+}
+
+.team-text1 p {
+    color: #8c9398;
+    text-align: center;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    margin: 15%;
+    margin-top: 7%;
+}
+
+.team-text2 {
+    width: 32%;
+    height: 10%;
+    position: absolute;
+    margin-left: 66%;
+}
+
+.team-text2 h2{
+    font-size: 15px;
+    text-align: center;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: -12%;
+    margin-right: 110px
+
+}
+
+.team-text2 h2::after {
+    content: " ";
+    border: solid 2px #3dc9b3;
+    display: block;
+    width: 35px;
+    margin: 22px;
+    margin-left: 45%;
+    
+}
+
+.team-text2 p {
+    color: #8c9398;
+    text-align: center;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    margin: 15%;
+      margin-right: 110px
+}
+
+.team-text3 {
+    width: 32%;
+    height: 10%;
+    position: absolute;
+    margin-left: 36%;
+    margin-top: -12%;
+}
+
+.team-text3 h2{
+    font-size: 15px;
+    text-align: center;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    margin-top:2.5%;
+
+}
+
+.team-text3 h2::after {
+    content: " ";
+    border: solid 2px #3dc9b3;
+    display: block;
+    width: 35px;
+    margin: 22px;
+    margin-left: 46%;
+    
+}
+
+.team-text3 p {
+    color: #8c9398;
+    text-align: center;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    margin: 15%;
+    margin-top: 37px;
+}
 
