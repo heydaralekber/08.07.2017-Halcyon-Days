@@ -80,8 +80,8 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
-    margin-top: 4%;
-    margin-left: -8.8%;
+    margin-top: 3%;
+    margin-left: -7.8%;
     border:none;
     
 }
@@ -259,7 +259,7 @@ body{
     float: right;
     height: 97%;
     z-index: 2;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .servicesSlider h1 {
@@ -277,10 +277,12 @@ body{
 
 .servicesSlider p {
     text-align: center;
+    font-family: 'Varela Round', sans-serif;
     color: #8c9398;
     word-spacing: 1px;
     line-height: 25px;
     font-size: 14px;
+    margin: 2%;
 }
 
 
@@ -299,16 +301,18 @@ body{
 
 .servicesSlider2 p {
     text-align: center;
+    font-family: 'Varela Round', sans-serif;
     color: #8c9398;
     word-spacing: 1px;
     line-height: 25px;
     font-size: 14px;
+    margin: 2%;
 }
 
 /*Iphondan sonraki background sehfesi*/
 .swag {
     width: 100%;
-    margin-top: 39.5%;
+    margin-top: 31.5%;
     background: url(../images/plants-bg.jpg);
     height: 300px;
     background-repeat: no-repeat;
@@ -325,7 +329,7 @@ body{
     height: 299px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
+    padding-left: 63px;
     padding-right: 15px;
 }
 
@@ -519,7 +523,7 @@ body{
 }
 
 .ignite {
-    margin-top: 48%;
+    margin-top: 43%;
     width: 100%;
     height:210px;
     
@@ -543,7 +547,7 @@ body{
     letter-spacing: 1px;
     text-decoration: none;
     font-family: 'Varela Round', sans-serif;
-    margin-left: 40%;
+    margin-left: 42.5%;
     margin-top: 70px;   
 }
 
@@ -560,14 +564,8 @@ body{
     background: #3DC9B3;
     border: 1px solid #3DC9B3;
     transition: color 0.4s, border 0.4s;
-     
-
-}
-
-.ignite-btn a:hover {
     color: #3DC9B3;
-    transition: color 0.4s, border 0.4s;
-    
+
 }
 
 
@@ -694,7 +692,7 @@ body{
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 9px;
+    margin-top: 4px;
     letter-spacing: 1px;
     text-align: center;
 }
@@ -703,7 +701,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-size: 28px;
-    margin-top: 11%;
+    margin-top: 7%;
    
 }
 
@@ -716,7 +714,7 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
     border: solid 1px #fff;
     padding: 20px;
-    width: 30%;
+    width: 25%;
     color: #fff;
 }
 
@@ -727,5 +725,60 @@ body{
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
+    -webkit-transition: all 0.5s ease;
     
+}
+
+.subscribe input:hover {
+    transition: color 0.4s, border 0.4s;
+    color: #3DC9B3;
+}
+
+.up-btn {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+    background: rgba(61, 201, 179, 0.5);
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    position: absolute;
+    margin-top: -1.7%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.up-btn a {
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.up-btn:hover{
+                
+    transition: all .5s;
+    background:rgb(92, 210, 191);
+  }
+
+.content {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row h1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #353535;
+    letter-spacing: 1px;
+    font-family: 'Varela Round', sans-serif;
+    background: url(../images/h1-bg.png) no-repeat center bottom;
+    padding-bottom: 30px;
+    font-weight: bold;
 }
